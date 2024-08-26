@@ -1,3 +1,7 @@
+Tried 506 words.
+Could not solve 3:
+"lower", "night", "joker"
+
 1.  s   h  <a>  r   e 
 2.  p  <a>  i   n  [t]
 3. [a]  d  <u>  l  [t]
@@ -3636,6 +3640,3 @@
 3. [n] [a] [n] [n] [y]
 
  Word was nanny
-
-Could not solve 3 words:
-lower,night,joker
