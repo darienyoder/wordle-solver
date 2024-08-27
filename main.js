@@ -98,6 +98,7 @@ function letterTotalFrequency(letter)
 function solveWord(newWord = "")
 {
     output = document.getElementById("output");
+    output.innerHTML = "";
     // for (var i = 0; i < wordList.length; i++)
     // {
         let printText = "";
