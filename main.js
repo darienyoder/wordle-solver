@@ -104,6 +104,8 @@ function solveWord(newWord = "")
         let keyWord = newWord;
 	if (keyWord == "")
 	    keyWord = wordList[Math.floor(Math.random() * wordList.length)];
+	else
+	    wordList.push(keyWord);
         let solved = false;
         greenLetters = [0, 0, 0, 0, 0];
         yellowLetters = [];
