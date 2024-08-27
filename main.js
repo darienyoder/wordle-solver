@@ -95,13 +95,15 @@ function letterTotalFrequency(letter)
     return score;
 }
 
-function main()
+function solveWord(newWord = "")
 {
     output = document.getElementById("output");
     // for (var i = 0; i < wordList.length; i++)
     // {
         let printText = "";
-        let keyWord = wordList[Math.floor(Math.random() * wordList.length)];
+        let keyWord = newWord;
+	if (keyWord == "")
+	    keyWord = wordList[Math.floor(Math.random() * wordList.length)];
         let solved = false;
         greenLetters = [0, 0, 0, 0, 0];
         yellowLetters = [];
