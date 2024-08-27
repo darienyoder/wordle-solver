@@ -146,7 +146,6 @@ function solveWord(newWord = "")
         if (!solved)
         {
             printText = "<span style='background-color:pink;'>" + printText + "</span>";
-            unsolvedWords.push(keyWord);
         }
 
         output.innerHTML += printText;
