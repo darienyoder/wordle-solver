@@ -103,10 +103,11 @@ function solveWord(newWord = "")
     // {
         let printText = "";
         let keyWord = newWord;
-	if (keyWord == "")
-	    keyWord = wordList[Math.floor(Math.random() * wordList.length)];
-	else
-	    wordList.push(keyWord);
+        if (keyWord == "")
+            keyWord = wordList[Math.floor(Math.random() * wordList.length)];
+        else
+            wordList.push(keyWord);
+	document.getElementById("word-input").value = "";
         let solved = false;
         greenLetters = [0, 0, 0, 0, 0];
         yellowLetters = [];
